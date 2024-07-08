@@ -1,0 +1,13 @@
+New Website
+
+comand: pwd-shows location ( print working directory or what folder im in)
+	cd- find folder
+BLUE=FOLDER
+
+pwd				~/ user folder aka (/c/users/username)
+ls-a <-flag				/ root
+cd folder 	cd ..		./ current dirrectory
+mkdir folder-name		../enclosiing directory
+touch= make new file (file.txt)
+which-command
+nano file.txt
