@@ -4,9 +4,10 @@ body {
 }
 
 img {
-  max-width: 100%;
   width: auto;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input, select, button, textarea {
@@ -28,7 +29,7 @@ div#tswcontent {
   float: right;
   width: 80%;
   color: black;
-  background-color: white;
+  background-color: #23b14d;
 }
 
 @media only screen and ( max-width : 629px ) {
@@ -48,8 +49,7 @@ div#tswcontproper {
 }
 
 div#tswcontainer {
-  color: ;
-  background-color: white;
+  background-color: #23b14d;
 }
 
 div#tswsideproper, div#tswothersideproper {
@@ -59,7 +59,7 @@ div#tswsideproper, div#tswothersideproper {
 
 div#tswheader {
   color: black;
-  background-color: white;
+  background-color: #23b14d;
 }
 
 div#tswfooter {

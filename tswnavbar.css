@@ -39,12 +39,14 @@ div {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: #23b14d;
+  color: black;
 }
 
 p {
   font-family: "Times New Roman", "Times", "serif";
   font-size: 150%;
-  color: #2aaad4;
+  color: #666666;
 }
 
 span {
@@ -56,5 +58,23 @@ span {
 
 #tswfooter {
   background-color: #b1b1b1;
+}
+
+#tswcontainer {
+  font-size: 90%;
+}
+
+.p {
+  font-size: 90%;
+  color: #666666;
+}
+
+#tswcontproper {
+  color: black;
+}
+
+#tswheader {
+  padding: 0%;
+  margin: 0%;
 }
 
