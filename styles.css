@@ -10,11 +10,16 @@ img {
   margin-right: auto;
 }
 
-input, select, button, textarea {
+input,
+select,
+button,
+textarea {
   max-width: 100%;
 }
 
-meter, progress, output {
+meter,
+progress,
+output {
   max-width: 100%;
 }
 
@@ -32,11 +37,12 @@ div#tswcontent {
   background-color: #23b14d;
 }
 
-@media only screen and ( max-width : 629px ) {
+@media only screen and (max-width : 629px) {
   div#tswsidecol {
     float: none;
     width: 100%;
   }
+
   div#tswcontent {
     float: none;
     width: 100%;
@@ -52,7 +58,8 @@ div#tswcontainer {
   background-color: #23b14d;
 }
 
-div#tswsideproper, div#tswothersideproper {
+div#tswsideproper,
+div#tswothersideproper {
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -65,4 +72,17 @@ div#tswheader {
 div#tswfooter {
   color: black;
 }
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
