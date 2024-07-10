@@ -78,11 +78,18 @@ div#tswfooter {
 .column {
   float: left;
   width: 50%;
-  padding: 5px;
+  padding: 5%; 
 }
 
 .row::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
