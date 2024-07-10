@@ -8,5 +8,6 @@
  */
 
 body {
-  background-color: blueviolet;
+  background-color: firebrick;
+  outline: 10px solid darkgrey;
 }
