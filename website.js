@@ -1,0 +1,1 @@
+const coloorField  = document.getElementById ("color-field");
