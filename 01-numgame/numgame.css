@@ -36,7 +36,15 @@ body{
 
 #img1{
   visibility: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 #img2{
   visibility: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
