@@ -5,7 +5,7 @@
 
 const numField = document.getElementById('num-field');
 const messageText = document.getElementById('message-text');
-
+const img1 = document.getElementById('img1');
 
 let secret;
 let min=1;
@@ -31,10 +31,13 @@ function makeGuess() {
     console.log(`Guess: ${guess}`);
     if (guess < secret){
         messageText.innerHTML = `${guess} is too low`;
+        img2.style.visibility = "visible";
     } else if(guess > secret){
         messageText.innerHTML = `${guess} is too high`;
+        img2.style.visibility = "visible";
     } else if(guess == secret) {
-        messageText.innerHTML = `${guess} is Correct!, You Won!`;
+        img1.style.visibility = "visible";
+        messageText.innerHTML = `${guess} is Correct! You Won!`;
         myConfetti({
             particleCount:300,
             spread: 360
@@ -42,5 +45,4 @@ function makeGuess() {
     } else {
         messageText.innerHTML = `No guess`;
     }
-    
 }

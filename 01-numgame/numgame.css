@@ -7,4 +7,36 @@
  */
 body{
   background-color:darkgreen;
+    text-align: center;
+    
+}
+.button {
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 16px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+} 
+.button:hover {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+#img1{
+  visibility: hidden;
+}
+#img2{
+  visibility: hidden;
 }

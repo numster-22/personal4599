@@ -14,15 +14,19 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </head>
 
-<body onload="loadGame()"> <!-- do something onload -->
+<body id="body" onload="loadGame()"> <!-- do something onload -->
     <h1>Number Guessing Game</h1>
 
-    <label>Make a Guess:</label>
-    <input id="num-field" type="number">
+    <label style="font-size: 25px;" class="label">Make a Guess:</label>
+    <input style="font-size: 25px;" id="num-field" type="number"/>
+    <button class="button" onclick="makeGuess()">Make Guess</button>
     <br>
-    <button onclick="makeGuess()">Make Guess</button>
 
-    <p id="message-text">50 is too low</p>
+    <p style= "font-size: 25px;" id="message-text">50 is too low</p>
+    <br>
+    <img id="img1" src="./images numgame/congrats.gif">
+    <br>
+    <img id="img2" src="./images numgame/bigred.gif">
     <!-- more elements here! -->
     <script src="./numgame.js"></script>
 </body>
