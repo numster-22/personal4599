@@ -15,14 +15,15 @@
 </head>
 
 <body id="body" onload="loadGame()"> <!-- do something onload -->
-    <h1>Number Guessing Game</h1>
+    
+    <h1 id="h1" style="background-position: center;">Number Guessing Game</h1>
 
-    <label style="font-size: 25px;" class="label">Make a Guess:</label>
-    <input style="font-size: 25px;" id="num-field" type="number"/>
+    <label style="font-size: 50px;" class="label">Make a Guess:</label>
+    <input style="font-size: 50px;" id="num-field" type="number"/>
     <button class="button" onclick="makeGuess()">Make Guess</button>
     <br>
 
-    <p style= "font-size: 25px;" id="message-text">50 is too low</p>
+    <p style= "font-size: 50px;" id="message-text">50 is too low</p>
     <br>
     <img id="img2" src="./images numgame/bigred.gif">
     <img id="img1" src="./images numgame/congrats.gif">

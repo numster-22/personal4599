@@ -10,9 +10,15 @@
     <h1>Word Game</h1>
     <h3>"Not really Wordle but we are basically there."</h3>
 
-    <p>Today's random word is <b><span id="random-word">LOADING......</span></b></p>
+    <p>Today's random word is 
+        <b><span id="random-word">LOADING......</span></b>
+    </p>
     
-    
+    <label>Guess a five letter Word:</label>
+    <input id="guess-field" oninput="changeGuess()"maxlength="5">
+
+    <br>
+    <p  id="feedback-text">Here is f<span class="correct">e</span>edback for the guess <br></p>
     
     <script src="./wordgame.js"></script>
 </body>
