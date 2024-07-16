@@ -1,2 +1,3 @@
 [submodule "03-clickgame"]
 	path = 03-clickgame
+	url = https://github.com/numster-22/03-clickgame.git
