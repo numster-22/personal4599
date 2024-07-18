@@ -93,3 +93,9 @@ div#tswfooter {
   margin-right: auto;
   width: 50%;
 }
+.badge{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
